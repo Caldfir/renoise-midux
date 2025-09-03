@@ -1,8 +1,8 @@
 
 -- FUNCTIONS
 
-local function vxport()
-  print("hi there smexy!")
+local function vxport(fpath_str)
+  print("hi there smexy!" .. fpath_str)
 end
 
 
@@ -10,6 +10,8 @@ end
 
 local M = {}
 
-function M.export() vxport() end
+function M.export(fpath_str)
+  vxport(fpath_str)
+end
 
 return M
