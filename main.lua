@@ -1,6 +1,5 @@
---[[============================================================================
-main.lua
-============================================================================]]--
+
+local VX = require "vxport"
 
 _AUTO_RELOAD_DEBUG = function()
   -- do tests like showing a dialog, prompts whatever, or simply do nothing
@@ -8,10 +7,11 @@ end
 
 print("Hello world!!")
 
+
 -- FUNCTIONS
 
- function vxport()
-   print("hi")
+ local function vxport()
+  VX.export()
  end
 
 
