@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool doc_version="0">
+  <ApiVersion>6.2</ApiVersion>
+  <AutoUpgraded>false</AutoUpgraded>
+  <Id>com.viln.MiDux</Id>
+  <Version>0.1</Version>
+  <Author>Tim Aitken</Author>
+  <Name>viln MIDI dumper</Name>
+  <Category>MIDI</Category>
+  <Description>Direct midi dump.</Description>
+  <Homepage>http://www.renoise.com</Homepage>
+</RenoiseScriptingTool>
