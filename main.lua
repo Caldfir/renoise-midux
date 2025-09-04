@@ -11,9 +11,9 @@ print("loaded midu")
 -- FUNCTIONS
 
  local function vxport()
-  local fpath_str = renoise.app():prompt_for_filename_to_write("mid", "Export MIDI")
+  local fpath_str = "derp.mid"--renoise.app():prompt_for_filename_to_write("mid", "Export MIDI")
   if fpath_str == "" then return end
-  VX.export(fpath_str)
+  VX:export(fpath_str)
  end
 
 
